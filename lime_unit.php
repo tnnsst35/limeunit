@@ -1,8 +1,7 @@
 <?php
 require_once dirname(__FILE__) . '/libs/lime.php';
-
 /**
- * lime_testの拡張
+ * LimeUnit
  */
 class LimeUnit
 {
@@ -65,7 +64,7 @@ class LimeUnit
 
     /**
      * テストの実行直前に呼び出される
-     * 必要な場合、親クラスでオーバーライドしてください
+     * 必要な場合、子クラスでオーバーライドしてください
      */
     public function tearDown()
     {
